@@ -36,7 +36,7 @@ fetchAsync().then(keyValues => {
             borderColor: bc[i - 1]
         })
     }
-    const myNewChart = new Chart(document.getElementById('covid_chart'), {
+    const myNewChart = new Chart(document.getElementById('myChart'), {
         type: 'line',
         data: {
             datasets: covid_datasets,
